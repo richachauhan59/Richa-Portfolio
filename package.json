@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://richachauhan59.github.io/portfolio",
+=======
+  "homepage": "http://richachauhan59.github.io/portfolio",
+>>>>>>> a52aeb1ae11c17f5741ebf79eb5791bdd0e170b5
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
