@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #loading {
+    text-align: center; 
+    height: 100vh; 
+    background-color: #333; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .blinking {
+    font-size: x-large;
+    color: white;
+    animation: blink 1s ease-in-out infinite;
+  }
+
+  @keyframes blink{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+  }
